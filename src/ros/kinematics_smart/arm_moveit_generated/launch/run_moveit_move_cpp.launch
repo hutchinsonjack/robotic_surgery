@@ -1,0 +1,8 @@
+<launch>
+
+  <include file="$(find arm_moveit_generated)/launch/demo.launch"/>
+
+  <node name="move_group_interface_test" pkg="arm_moveit_generated" type="moveit_move_cpp" respawn="false" output="screen">
+  </node>
+
+</launch>
